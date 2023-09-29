@@ -1,11 +1,14 @@
 package supera5.model;
 
 import javax.persistence.Column;
+
+import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import jakarta.persistence.Id;
 import javax.persistence.Table;
+
 
 @Entity
 @Table(name="conta")

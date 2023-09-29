@@ -6,6 +6,8 @@ import java.time.ZonedDateTime;
 import java.util.Date;
 
 import javax.persistence.Column;
+
+import jakarta.persistence.Embeddable;
 //import javax.persistence.Embedded;
 import jakarta.persistence.Entity;
 import javax.persistence.GeneratedValue;
